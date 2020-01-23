@@ -7,12 +7,12 @@ body {
 	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: url(../imagens/bg.png);
+	max-width: 1180px;
+	margin: auto;
 }
 
 .header {
-	max-width: 1180px;
 	min-height: 250px;
-	margin: auto;
 	background: #a29750;
 	position: relative;
 }
@@ -103,3 +103,24 @@ a {
 	margin-top: 20px;
 	float: right;
 }
+
+#area-principal {
+	width: 590px;
+	float: left;
+}
+
+#area-secundaria {
+	width: 590px;
+	float: right;
+}
+
+.content {
+	background: url(../imagens/bg-conteiner.png) top center repeat-y;
+}
+
+#rodape {
+	clear: both;
+}
+
+
+
